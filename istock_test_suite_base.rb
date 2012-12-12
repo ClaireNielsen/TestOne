@@ -8,6 +8,8 @@ require "sys/uname"
 
 $command_line_args = Array.new(ARGV)
 
+#Just changing some stuff for playing with git
+
 class Net::HTTP
   alias_method :old_initialize, :initialize
   def initialize(*args)
